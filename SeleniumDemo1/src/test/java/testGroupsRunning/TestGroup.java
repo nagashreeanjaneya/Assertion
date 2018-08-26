@@ -8,7 +8,7 @@ public class TestGroup {
 	public void testCaseOne() {
 		Reporter.log("Test Case 1", true);
 	}
-	@Test(priority=2,groups="smoke")
+	@Test(priority=2,groups="regression")
 	public void testCaseTwo() {
 		Reporter.log("Test Case 2", true);
 	}
